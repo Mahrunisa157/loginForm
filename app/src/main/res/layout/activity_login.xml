@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/b3"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="221dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="70dp"
+        android:text="THE CHEF FOOD"
+        android:textColor="#F4511E"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+<!--    <ImageView-->
+<!--        android:layout_width="197dp"-->
+<!--        android:layout_height="117dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:src="@drawable/res" />-->
+
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginTop="30dp"
+        android:text="Login Form"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed_username"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+
+        android:hint="Enter Username"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed_password"
+
+        android:hint="Enter Passwords"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed_confirm"
+
+        android:hint="Confirm Password"/>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="#5C7C3B"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:text="Copyrights &#169; Food Pvt Ltd, Lahore"/>
+
+</LinearLayout>
